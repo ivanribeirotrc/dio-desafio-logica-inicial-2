@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Partidas Ranqueadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="container-interno">
+                <h1 class="titulo-principal">Nível em partidas Ranked do seu herói</h1>
+                <form action="#" method="post" class="container-form">
+                    <div class="container-input-nome">
+                        <input type="text" name="inputNomeHeroi" id="inputNomeHeroi" placeholder="Informe o nome do herói...">
+                    </div>
+                    <div class="container-input-quantidade">
+                        <input type="text" name="inputQtdVitoriasHeroi" id="inputQtdVitoriasHeroi" placeholder="Quantidade total de vitórias...">
+                    </div>
+                    <div class="container-input-quantidade">
+                        <input type="text" name="inputQtdDerrotasHeroi" id="inputQtdDerrotasHeroi" placeholder="Quantidade total de derrotas...">
+                    </div>
+                    <button type="button" id="btnConsultar" name="btnConsultar" onclick="calcularQuantidadeVitorias()">Verificar Nível em Ranked</button>
+                    <div class="container-resultado">
+                        <div class="resultadoConsulta"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <ul class="lista-rodape">
+                <li>
+                    Desenvolvido por: <a href="https://github.com/ivanribeirotrc" target="_blank">Ivan Ribeiro</a>
+                </li>
+                <li>
+                    Imagem de Fundo Inspirada por: <a href="https://br.freepik.com/imagem-ia-gratis/cena-de-pixels-graficos-de-8-bits-com-a-natureza_137494898.htm" target="_blank">Freepik</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

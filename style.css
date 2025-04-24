@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./asset/img/freepik__the-style-is-pixel-art-with-a-retro-8bit-pixelated__74714.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.container-interno {
+    border: 5px solid rgba(15, 118, 110, 0.5);
+    border-radius: 10px;
+    background-color: rgba(214, 211, 209, 0.7);
+}
+
+.titulo-principal {
+    padding: 10px 20px 15px 20px;
+    color: #e7e5e4;
+    text-shadow: black 5px 5px 5px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-input-nome input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgba(167, 243, 208, 1);
+    border-radius: 15px;
+}
+.container-input-nome input:focus {
+    outline-color: rgba(110, 231, 183, 1);
+}
+
+.container-input-quantidade input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgba(167, 243, 208, 1);
+    border-radius: 15px;
+}
+.container-input-quantidade input:focus {
+    outline-color: rgba(110, 231, 183, 1);
+}
+
+#btnConsultar {
+    background-color: rgba(15, 118, 110, 1);
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border: 1px solid rgba(20, 184, 166, 0.7);
+    border-radius: 15px;
+    font-weight: bold;
+    color: #e7e5e4;
+}
+#btnConsultar:hover {
+    cursor: pointer;
+    background-color: rgba(20, 184, 166, 0.7);
+    border: 1px solid rgba(15, 118, 110, 1);
+}
+
+.container-resultado {
+    margin: 5px 0 10px 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(167, 243, 208, 0.6);
+    padding: 10px;
+}
+
+.lista-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    color: rgba(15, 118, 110, 1);
+}
+.lista-rodape a {
+    color: inherit;
+}
